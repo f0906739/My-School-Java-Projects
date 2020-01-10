@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TestString",
+            "request": "launch",
+            "mainClass": "TestString",
+            "projectName": "Beck Project_8fd1e8b2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TicTacToe",
             "request": "launch",
             "mainClass": "TicTacToe",
