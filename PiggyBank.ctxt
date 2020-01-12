@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PiggyBank
+comment1.params=
+comment1.target=PiggyBank()
+comment2.params=pens\ nics\ dims\ quarts
+comment2.target=PiggyBank(int,\ int,\ int,\ int)
+comment3.params=
+comment3.target=int\ getPennies()
+comment4.params=
+comment4.target=int\ getNickels()
+comment5.params=
+comment5.target=int\ getDimes()
+comment6.params=
+comment6.target=int\ getQuarters()
+comment7.params=pens\ nics\ dims\ quarts
+comment7.target=void\ addCoins(int,\ int,\ int,\ int)
+comment8.params=
+comment8.target=double\ total()
+numComments=9
