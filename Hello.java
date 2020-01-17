@@ -16,7 +16,7 @@ public class Hello {
         String name = "Kristopher Ferrell";
         String address = "19403 Haystream Dr.";
         String city = "Katy";
-        String message = "\n" + name + "\n" + address + "\n" + city + "\n";
+
         out.println(message);
 
     }
