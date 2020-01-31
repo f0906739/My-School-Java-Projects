@@ -43,7 +43,7 @@ public class PiggyBank {
     }
 
     public void addCoins(int pens, int nics, int dims, int quarts) {
-        this.pennies += pens;z
+        this.pennies += pens;
         this.nickels += nics;
         this.dimes += dims;
         this.quarters += quarts;
