@@ -6,30 +6,16 @@ import java.util.Scanner;
 public class Test {
 
     public static void main(String[] args) {
-        // String vowels = "aeiouy";
 
-        // ArrayList<String> test = new ArrayList<String>();
-        // test.add("h");
-        // test.add("i");
-        // test.set(1,"a");
-        // test.add("y");
-        // test.add("n");
+        int [] nums = {1,2,3,4,5,6,7,8,9,0};
+        ArrayList <Integer> numbers = new ArrayList<Integer>();
 
-        // for (int i = test.size()-1; i>=0; i--){
-        //     if ( vowels.contains(test.get(i)) )
-        //         test.remove(i);
-        // }
-        // out.println(test); //expect "i" and "y" to be removed.
-
-        ArrayList<String> sam;
-        sam = new ArrayList<String>();
-        sam.add("chair");
-        sam.add("five");
-        sam.add("pig");
-        for (int i = 0; i<4; i+=2){
-            sam.add(i,"fun");
+        for (int i = 0; i<nums.length; i++){
+            if (nums[i] > 4)
+                numbers.add(nums[i]);
         }
-        out.println(sam);
-    }
 
+        out.println(numbers);
+
+    }
 }
