@@ -45,7 +45,7 @@ public class CheckingAccount extends Account{
         String n = getName();
         String id = getAccountID();
         double bal = getBalance();
-        return "\nName of Account: "+n+"\nID of Account: "+id+"\nBalance of Account: "+bal+"\nBonus amount of Checking Account: "+bonus;
+        return "\nName of Checking Account: "+n+"\nID of Checking Account: "+id+"\nBalance of Checking Account: "+bal+"\nBonus amount of Checking Checking Account: "+bonus;
     }
 }
 
