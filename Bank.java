@@ -10,22 +10,32 @@ public class Bank {
         Account mike = new Account("Mike", "T12564", 1250);
         CheckingAccount john = new CheckingAccount("John", "T52643", 256, 20);
         Account cecilia = new CheckingAccount("Cecilia", "T24964", 5200, 50);
+        // CheckingAccount testCheckingAccount = new Account("James","G1",300.5);
+        Account testThis = new CheckingAccount("Test", "G5", 301, 10);
+        System.out.println(testThis);
+        testThis.withdraw(50);
+        System.out.println(testThis.bonus);
 
-        mike.makeDeposit(300);
-        john.withdraw(400);
-        cecilia.withdraw(500);
 
-        System.out.println("Cecilia has no bonus.");
+        // mike.makeDeposit(300);
+        // john.withdraw(400);
+        // cecilia.withdraw(500);
 
-        System.out.printf("Mike's balance is $%f", mike.getBalance());
-        System.out.printf("John's balance is $%f",john.getBalance());
-        System.out.printf("Cecilia's balance is $%f",cecilia.getBalance());
+        // System.out.println("Cecilia has no bonus.");
 
-        System.out.println(mike);
-        System.out.println(john);
-        System.out.println(cecilia);
+        // System.out.printf("Mike's balance is $%f", mike.getBalance());
+        // System.out.printf("John's balance is $%f",john.getBalance());
+        // System.out.printf("Cecilia's balance is $%f",cecilia.getBalance());
+
+        // System.out.println(mike);
+        // System.out.println(john);
+        // System.out.println(cecilia);
 
         Account[] accounts = { mike, john, cecilia };
+
+        // System.out.println(testCheckingAccount);
+        // testCheckingAccount.
+
     }
 
     public Account maxBalance(Account[] accs) {
@@ -38,4 +48,5 @@ public class Bank {
         }
         return max;
     }
+
 }

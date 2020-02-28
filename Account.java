@@ -15,9 +15,11 @@ public class Account {
 
     // }
     public Account() {
+        System.out.println("Account's constructor");
         name = "";
         AccountID = "";
         balance = 0.0;
+
     }
 
     public Account(String n, String id, double b) {

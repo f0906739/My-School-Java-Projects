@@ -16,6 +16,7 @@ public class CheckingAccount extends Account {
 
     public CheckingAccount() {
         super();
+        System.out.println("Checking Account's constructor");
         bonus = 0.0;
     }
 
