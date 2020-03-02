@@ -24,6 +24,6 @@ public class Ship {
     }
 
     public String toString() {
-        return "Ship [name: " + name + ", year: " + year +"];
+        return "Ship [name: " + name + ", year: " + year +"]";
     }
 }

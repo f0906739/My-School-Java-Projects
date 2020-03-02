@@ -1,5 +1,6 @@
 public class CruiseShip extends Ship{
     private int maxPassengers;
+
     public CruiseShip() {
         super();
         maxPassengers = 0;
