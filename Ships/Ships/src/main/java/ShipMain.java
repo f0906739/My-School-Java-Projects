@@ -3,7 +3,7 @@ class ShipMain
     public static void main(String[] args)
     {
         // Ship[] ships = {Ship("MyName", 2020)};
-        Ship[] ships = [10];
+        Ship[] ships = new Ship[10];
         ships[0] = new Ship("First", "2020");
         ships[1] = new CruiseShip("Second", "1223153", 50);
         ships[2] = new CargoShip("Third", "2019", 30);

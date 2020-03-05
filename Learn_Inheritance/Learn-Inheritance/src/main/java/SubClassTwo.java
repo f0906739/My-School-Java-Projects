@@ -1,8 +1,3 @@
-public class SubClassTwo extends SubClassOne{
-
-    @Override
-    public void print() {
-        System.out.println("Printed from SubClassTwo");
-
-    }
-}
+// public class SubClassTwo extends SuperClass{
+//     private String word;
+// }

@@ -17,6 +17,7 @@ public class CruiseShip extends Ship{
     }
     @Override
     public String toString() {
-        return "CruiseShip [name: "+ name + ", year: "+ year + ", maxPassengers: " + maxPassengers + "]";
+        return super.toString() + " CruiseShip [maxPassengers="+maxPassengers+"]";
+
     }
 }

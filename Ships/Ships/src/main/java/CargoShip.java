@@ -17,6 +17,6 @@ public class CargoShip extends Ship{
     }
     @Override
     public String toString() {
-        return "CargoShip [name: "+name+", tonnage: "+ tonnage+"]";
+        return super.toString() + " CargoShip [tonnage="+ tonnage+"]";
     }
 }

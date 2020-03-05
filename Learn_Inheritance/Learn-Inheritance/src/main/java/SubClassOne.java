@@ -5,4 +5,8 @@ public class SubClassOne extends SuperClass{
         System.out.println("Printed from SubClassOne");
 
     }
+    public void doSomething() {
+        System.out.println("hello");
+
+    }
 }
